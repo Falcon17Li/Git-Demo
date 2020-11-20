@@ -1,4 +1,4 @@
-package exam.dao;
+package dao;
 
 import domain.Question;
 import util.MySpring;

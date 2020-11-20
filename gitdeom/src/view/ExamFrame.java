@@ -1,4 +1,4 @@
-package exam.view;
+package view;
 
 
 import domain.Question;
@@ -437,7 +437,7 @@ public class ExamFrame extends BaseFrame {
         //获取当前qustion中的图片路径
         String picture = question.getPicture();//图片路径
         if(picture!=null){//有图片路径信息
-            pictureLabel.setIcon(this.drawImage("exam//img//" +picture));
+            pictureLabel.setIcon(this.drawImage("src//img//"+picture));
         }else{//没有图片信息
             pictureLabel.setIcon(null);
         }

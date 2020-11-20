@@ -1,4 +1,4 @@
-package exam.util;
+package util;
 
 import domain.Question;
 
@@ -13,7 +13,7 @@ public class QuestionFileReader {
 
     {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("exam//dbfile//Question.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("src//dbfile//Question.txt"));
             String message = reader.readLine();//每一次读取一行  title#answer
             while(message!=null){
                 String[] values = message.split("#");

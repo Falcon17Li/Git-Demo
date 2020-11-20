@@ -1,4 +1,4 @@
-package exam.service;
+package service;
 
 import dao.QuestionDao;
 import domain.Question;

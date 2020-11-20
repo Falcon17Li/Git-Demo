@@ -1,4 +1,4 @@
-package exam.domain;
+package domain;
 
 public class Question {
     //domain实体 存储文件中的题目 增强可读性

@@ -1,4 +1,4 @@
-package exam.view;
+package view;
 
 import service.UserService;
 import util.BaseFrame;

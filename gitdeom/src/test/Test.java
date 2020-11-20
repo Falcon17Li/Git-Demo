@@ -1,4 +1,4 @@
-package exam.util.test;
+package test;
 
 import view.LoginFrame;
 

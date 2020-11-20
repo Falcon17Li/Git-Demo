@@ -1,4 +1,4 @@
-package exam.domain;
+package domain;
 
 //domain实体对象
 //存储文件中的一行记录

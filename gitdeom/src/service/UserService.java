@@ -1,4 +1,4 @@
-package exam.service;
+package service;
 
 import dao.UserDao;
 import domain.User;

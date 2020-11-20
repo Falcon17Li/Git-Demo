@@ -1,4 +1,4 @@
-package exam.util;
+package util;
 
 import domain.User;
 
@@ -19,7 +19,7 @@ public class UserFileReader {
     static{
         BufferedReader reader = null;
         try {
-            reader = new BufferedReader(new FileReader("exam//dbfile//User.txt"));
+            reader = new BufferedReader(new FileReader("src//dbfile//User.txt"));
             String user = reader.readLine();//每一次读取文件中一行记录
             while(user!=null){
                 String[] values = user.split("-");//一行记录的两个信息 账号 密码
